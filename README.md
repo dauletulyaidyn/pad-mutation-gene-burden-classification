@@ -2,7 +2,7 @@
 
 Classifier comparison and mutation-derived gene-burden framework.
 
-Article-specific research support repository, version 1.0.1.
+Article-specific research support repository, version 1.0.2.
 
 **Status: historical source-artifact package; manuscript numerical results are not independently reproduced.**
 
@@ -45,3 +45,7 @@ No manuscript is published here. Code/data licensing has not been newly assigned
 Target: [Academic Scientific Journal of Computer Science](https://journals.nauka-nanrk.kz/physics-mathematics/index). Article/template number: 1. Supplied template: `1. article_template_all.docx`. The earlier ETASR/MDPI appearance came from preliminary manuscript files and is not the journal destination. The corrected local manuscripts retain the supplied filled journal versions and now cite this support repository and its supplementary package.
 
 See `JOURNAL_ALIGNMENT.md` for boundaries and submission-file handling.
+
+## Journal attachment contents
+
+`supplementary/` contains only the journal supplement DOCX and Tables S1-S3 (CSV). Historical output copies are kept in `archive/submission_excluded`; the editable supplement source is in `docs/`. Submission ZIP files exclude source code, repository documentation, provenance manifests and historical archives. The manuscript explicitly cites all three supplementary tables and methods.

@@ -145,42 +145,42 @@
     "sha256": "fbd970017b9f139824516e745af9d88638baa50247b460daa952acb643b768a2"
   },
   {
-    "file": "supplementary/tables/bcftools_sn.filtered.csv",
+    "file": "archive/submission_excluded/tables/bcftools_sn.filtered.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/bcftools_sn.filtered.csv",
     "sha256": "d4c5bce4a7618e9dbefeb3b283337159f671101ea9b4d5819afa509deb712b21"
   },
   {
-    "file": "supplementary/tables/bcftools_sn.filtered_novel_cohort.csv",
+    "file": "archive/submission_excluded/tables/bcftools_sn.filtered_novel_cohort.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/bcftools_sn.filtered_novel_cohort.csv",
     "sha256": "a478d14d95d7cddcb80741f109557e63a6d91e8529a321c7ef305f65efb8ebc9"
   },
   {
-    "file": "supplementary/tables/ml_supervised_metrics_repeated_baseline.csv",
+    "file": "archive/submission_excluded/tables/ml_supervised_metrics_repeated_baseline.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_supervised_metrics_repeated_baseline.csv",
     "sha256": "daf5fbfa68f85a0dbbf399695fda70ffe73ab06a8d850a216a2e03ab7f8565ed"
   },
   {
-    "file": "supplementary/tables/ml_supervised_metrics_repeated_cohort.csv",
+    "file": "archive/submission_excluded/tables/ml_supervised_metrics_repeated_cohort.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_supervised_metrics_repeated_cohort.csv",
     "sha256": "99fe1343b885c2ee406dd35e467df04162538f7e039fc2b950d8e47147d67a76"
   },
   {
-    "file": "supplementary/tables/ml_baseline_qc_metrics_baseline.csv",
+    "file": "archive/submission_excluded/tables/ml_baseline_qc_metrics_baseline.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_baseline_qc_metrics_baseline.csv",
     "sha256": "a55eedffce803a847d49cb3bc3cfbe85c544d0f3916dabe62dd58dad7f7c022b"
   },
   {
-    "file": "supplementary/tables/ml_baseline_qc_metrics_cohort.csv",
+    "file": "archive/submission_excluded/tables/ml_baseline_qc_metrics_cohort.csv",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_baseline_qc_metrics_cohort.csv",
     "sha256": "a55eedffce803a847d49cb3bc3cfbe85c544d0f3916dabe62dd58dad7f7c022b"
   },
   {
-    "file": "supplementary/tables/ml_permutation_test_baseline.txt",
+    "file": "archive/submission_excluded/tables/ml_permutation_test_baseline.txt",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_permutation_test_baseline.txt",
     "sha256": "40a88df9e00a8c166bd01605117b6566c7924841aec4a03e7cf38fd7a35c4626"
   },
   {
-    "file": "supplementary/tables/ml_permutation_test_cohort.txt",
+    "file": "archive/submission_excluded/tables/ml_permutation_test_cohort.txt",
     "source": "PAD_scRNA_variant_ML_paper_Q2_20251228/tables/ml_permutation_test_cohort.txt",
     "sha256": "d323e3bfa96fa99edc0773fa86e9e62b3d8d05cdea88a7a17bf12f75f8d3cdaa"
   }
