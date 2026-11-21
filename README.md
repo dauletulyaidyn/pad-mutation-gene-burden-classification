@@ -1,15 +1,18 @@
-# Machine Learning Framework for Mutation-Derived Gene-Burden Classification from Single-Cell RNA-Seq in Peripheral Artery Disease
+# Reproducible GATK-Based Pipeline for Expressed-Variant Gene-Burden Features from Single-Cell RNA-Seq
 
-Classifier comparison and mutation-derived gene-burden framework.
+Support repository for article 1 (NAN RK / ASJCS, submission #9136), version 1.1.0.
 
-Article-specific research support repository, version 1.0.2.
+**Current manuscript: revision 6 (2026-11-21). Its materials, figures and scripts are in [`revision_2026-11-21/`](revision_2026-11-21/).**
 
-**Status: historical source-artifact package; manuscript numerical results are not independently reproduced.**
+Revision 6 changes the paper from a classification and biomarker study into a reproducible-pipeline study. It covers quality control, filter sensitivity, coverage dependence, computational cost and a grouped validation check against an exact permutation null. The earlier classification results (balanced accuracy 0.97, signed biomarkers) are withdrawn. They did not reproduce for three reasons: the legacy labels were inverted relative to GEO, the cross-validation split runs rather than samples, and recurrent loci were selected on the whole cohort. Everything else in this repository is kept as a historical record of the earlier version.
 
-The manuscript-specific numerical results have not been reproduced by this package. Archived source files and manuscript-reported claims are separated. Public GSE176415 metadata contain four unwounded-skin and three wound biological samples; the fourteen runs comprise eight UWE and six WE observations. Legacy labels disagree with this mapping. The archived CV uses run-level splits and fixed hyperparameters, not donor/GSM-grouped nested tuning. Cohort-frequency filtering uses the entire cohort. Archived PCA values, coefficients and some classifier summaries differ from the manuscript. No matched DNA or verified PAD clinical status is established by this dataset. All expressed variants and biological interpretations are exploratory. Reanalysis with reconciled labels and group-aware training-only preprocessing is required before publication claims can be considered reproducible.
+## Historical package (manuscript rev1–rev5)
+
+The manuscript-specific numerical results of rev1–rev5 have not been reproduced by this package. Archived source files and manuscript-reported claims are separated. Public GSE176415 metadata contain four unwounded-skin and three wound biological samples; the fourteen runs comprise eight UWE and six WE observations. Legacy labels disagree with this mapping. The archived CV uses run-level splits and fixed hyperparameters, not donor/GSM-grouped nested tuning. Cohort-frequency filtering uses the entire cohort. Archived PCA values, coefficients and some classifier summaries differ from the manuscript. Revision 6 repeats the analysis with reconciled labels and training-only feature construction.
 
 ## Contents
 
+- `revision_2026-11-21/`: rev6 supplementary materials, figures and analysis scripts (current).
 - `supplementary/`: Word supplement, supplementary methods, numbered Tables S1–S3 and source-result tables.
 - `archive/`: unchanged historical matrices, metrics, coefficients, metadata and dependency definitions.
 - `data/metadata_source_reconciled.csv`: source-derived run labels and GSM groups for future reanalysis.
