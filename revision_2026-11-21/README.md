@@ -1,6 +1,6 @@
 # Revision 2026-11-21 (manuscript rev6)
 
-The revised manuscript is titled *A reproducible GATK-based pipeline for expressed-variant gene-burden features from single-cell RNA-seq: quality control, filter sensitivity and computational cost*. This folder holds its supplementary materials, figures and the scripts behind every number in it.
+The revised manuscript is titled *A reproducible GATK-based feature-engineering pipeline for machine learning on single-cell RNA-seq expressed variants: quality control, filter sensitivity, computational cost and leakage-controlled validation*. This folder holds its supplementary materials, figures and the scripts behind every number in it.
 
 The revision replaces the classification and biomarker claims of the earlier manuscript. Those claims did not reproduce once the condition labels were reconciled with GEO and validation was grouped by sample (see `../REPRODUCIBILITY.md`).
 

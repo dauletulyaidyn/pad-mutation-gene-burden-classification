@@ -1,4 +1,4 @@
-# Reproducible GATK-Based Pipeline for Expressed-Variant Gene-Burden Features from Single-Cell RNA-Seq
+# Reproducible GATK-Based Feature-Engineering Pipeline for Machine Learning on Single-Cell RNA-Seq Expressed Variants
 
 Support repository for article 1 (NAN RK / ASJCS, submission #9136), version 1.1.0.
 
